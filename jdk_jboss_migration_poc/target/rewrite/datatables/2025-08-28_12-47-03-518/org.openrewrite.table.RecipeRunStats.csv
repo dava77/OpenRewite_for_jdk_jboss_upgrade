@@ -1,6 +1,0 @@
-"The recipe","Source file count","Source file changed count","Cumulative scanning time (ns)","99th percentile scanning time (ns)","Max scanning time (ns)","Cumulative edit time (ns)","99th percentile edit time (ns)","Max edit time (ns)"
-"The recipe whose stats are being measured both individually and cumulatively.","The number of source files the recipe ran over.","The number of source files which were changed in the recipe run. Includes files created, deleted, and edited.","The total time spent across the scanning phase of this recipe.","99 out of 100 scans completed in this amount of time.","The max time scanning any one source file.","The total time spent across the editing phase of this recipe.","99 out of 100 edits completed in this amount of time.","The max time editing any one source file."
-"org.openrewrite.maven.ChangePropertyValue","12","1","0","0.0","0","11817300","1.2058592E7","11807400"
-"com.example.UpgradeJavaAndAxis2","12","1","105100","81856.0","80100","117700","69504.0","65700"
-"org.openrewrite.maven.UpgradeDependencyVersion","12","1","435270900","4.36206592E8","434955100","4927800","4717568.0","4529200"
-"org.openrewrite.maven.UpgradePluginVersion","12","1","0","0.0","0","23694600","2.4117216E7","23681300"

@@ -1,0 +1,14 @@
+com\example\demo2\soap\SampleSoapServiceImpl.class
+com\example\demo2\soap\SoapClient.class
+com\example\demo2\Axis2ServiceUtil.class
+com\example\demo2\DemoApplication.class
+com\example\demo2\config\SoapServiceConfig.class
+com\example\demo2\service\SampleService.class
+com\example\common\Person.class
+com\example\common\PersonRepository.class
+com\example\demo2\dto\SampleDTO.class
+com\example\demo2\HelloWorldService.class
+com\example\common\PersonController.class
+com\example\common\PersonService.class
+com\example\demo2\controller\SampleController.class
+com\example\demo2\soap\SampleSoapService.class
