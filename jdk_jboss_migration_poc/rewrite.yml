@@ -1,0 +1,28 @@
+type: specs.openrewrite.org/v1beta/recipe
+name: com.example.UpgradeJavaAndAxis2
+displayName: Upgrade Java and Axis2
+description: Upgrade Java to 21 and Axis2 transport-http to 2.0.0
+recipeList:
+  # Upgrade Axis2 transport-http dependency
+  - org.openrewrite.maven.UpgradeDependencyVersion:
+      groupId: "org.apache.axis2"
+      artifactId: "axis2-transport-http"
+      newVersion: "2.0.0"
+
+  - org.openrewrite.maven.UpgradeDependencyVersion:
+      groupId: "org.apache.axis2"
+      artifactId: "axis2-adb"
+      newVersion: "2.0.0"
+
+  # Upgrade the Maven compiler plugin
+  - org.openrewrite.maven.UpgradePluginVersion:
+      groupId: "org.apache.maven.plugins"
+      artifactId: "maven-compiler-plugin"
+      newVersion: "3.11.0"
+
+  # Set <java.version> property in pom.xml
+  - org.openrewrite.maven.ChangePropertyValue:
+      key: "java.version"
+      newValue: "21"
+      addIfMissing: true
+
