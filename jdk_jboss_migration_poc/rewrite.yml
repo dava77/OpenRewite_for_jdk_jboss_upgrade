@@ -26,3 +26,5 @@ recipeList:
       newValue: "21"
       addIfMissing: true
 
+    # Upgrade javax to jakarta
+  - org.openrewrite.java.migrate.jakarta.JavaxMigrationToJakarta
